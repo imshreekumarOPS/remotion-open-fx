@@ -1,0 +1,48 @@
+{
+  "name": "remotion-open-fx",
+  "version": "1.2.0",
+  "description": "A production-grade animation & effects library for Remotion — 30+ easings, physics springs, transitions, overlays, and kinetic components.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "remotion",
+    "animation",
+    "video",
+    "effects",
+    "transitions",
+    "easing",
+    "spring",
+    "particles",
+    "film-grain",
+    "lower-thirds",
+    "kinetic-typography"
+  ],
+  "license": "MIT",
+  "author": "Indrajit Chandra",
+  "homepage": "https://github.com/indrajit/remotion-pak#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indrajit/remotion-pak.git"
+  },
+  "bugs": {
+    "url": "https://github.com/indrajit/remotion-pak/issues"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "remotion": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "remotion": "^4.0.0",
+    "react": "^18.2.0",
+    "typescript": "^5.3.0"
+  }
+}
